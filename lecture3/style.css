@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+/*580 это половина ширины контентной части*/
+.center {
+    padding-left: calc(50% - 580px);
+    padding-right: calc(50% - 580px);
+}
+
+/* копируем в гугле */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -12,6 +23,8 @@ a {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #2f2e41;
+    display: flex;
+    gap: 32px;
 }
 
 .header_link {
@@ -26,9 +39,16 @@ a {
 .top {
     padding-top: 84px;
     padding-bottom: 84ps;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
 }
 
 .title {
+    width: 578px;
     font-size: normal;
     font-weight: 700;
     font-size: 96px;
@@ -54,6 +74,15 @@ a {
 
 .about_content {
     margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.about_text {
+    width: 462px;
     font-size: normal;
     font-weight: 300;
     font-size: 18px;
