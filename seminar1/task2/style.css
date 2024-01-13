@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+}
+
+.menu {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    /*меняет цвет ссылки 
+    при наведении курсора*/
+    transition: color 0.3s ease-in-out;
+}
+
+/*меняет цвет ссылки 
+    при наведении курсора*/
+.menu:hover {
+    color: rgb(180, 10, 143);
+}
+
+.tittle {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.paragr {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.tittle2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 80px;
+
+}
+
+.photo {
+    border-radius: 20px;
+    width: 300px;
+    background-color: blueviolet;
+    border: #7D7987 8px double;
+    /* выдвигается при наведении*/
+    /* transform: scale(1);
+    box-shadow: none;
+    transition: box-shadow 600ms, transform 600ms; */
+}
+
+/* выдвигается при наведении*/
+/* .photo:hover{
+    transform: scale(1.05);
+    box-shadow: 15px 15px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 600ms, transform 600ms;
+    } */
+
+.form {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+
+}
+
+.bott {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+}
+
+body {
+    font-family: sans-serif;
+}
