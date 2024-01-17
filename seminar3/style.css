@@ -1,0 +1,141 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.frame {
+    width: 100%px;
+    background: var(--020-a-18, #020A18);
+}
+
+.top_content {
+    width: 100%;
+    height: 880px;
+    /* flex-shrink: 0; */
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    /* flex-shrink: 0; */
+    border: 1px solid #11F1F1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--ffffff, #FFF);
+}
+
+.top_info {
+    width: 1146px;
+    height: 415px;
+    /* flex-shrink: 0; */
+}
+
+.group399 {
+    /* width: 623px; */
+    height: 415px;
+    /* flex-shrink: 0; */
+}
+
+.art {
+    width: 604px;
+    color: var(--ffffff, #FFF);
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.lorem {
+    width: 558px;
+    color: var(--ffffff, #FFF);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+.next {
+    width: 265px;
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.top_buttons {
+    width: 457px;
+    height: 87px;
+    /* flex-shrink: 0; */
+    border: 1px solid #29F13D;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    color: var(--ffffff, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-flex;
+    padding: 18px 40px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pol1 {
+    width: 27px;
+    height: 26px;
+}
+
+.img {
+    width: 414px;
+    height: 415px;
+    /* flex-shrink: 0; */
+}
+
+.top_logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    width: 100%;
+    border-radius: 10px;
+    backdrop-filter: blur(100px);
+}
+
+.first_logo {
+    width: 217.644px;
+    height: 59px;
+}
+
+.second_logo {
+    width: 212.299px;
+    height: 59px;
+}
+
+.third_logo {
+    width: 206.905px;
+    height: 59px;
+}
+
+.logo {
+    flex-shrink: 0;
+    height: 59px;
+}
