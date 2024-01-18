@@ -3,6 +3,14 @@
     background-color: #FFF;
 }
 
+.home_page {
+    display: flex;
+    padding: 40px 373px 100px 373px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 84px;
+}
+
 body {
     font-family: 'Inter', sans-serif;
 }
