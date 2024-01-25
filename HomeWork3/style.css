@@ -4,22 +4,15 @@
     font-family: 'Inter', sans-serif;
 }
 
-body{
+body {
     max-width: 100vw;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.right_menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    justify-content: flex-end;
 }
 
 .logo {
@@ -60,15 +53,20 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
     width: 100vw;
-    gap: 15%;
+    /* gap: 15%; */
     margin-top: 84px;
     padding-bottom: 100px;
 }
 
 .left_content {
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-left: 20px;
+    width: 614px;
+    max-height: 600px;
 }
 
 .h1 {
@@ -125,9 +123,10 @@ body{
     display: flex;
     justify-content: flex-start;
     margin-right: 20px;
-    /* width: 545px;
+    width: 545px;
     height: 375px;
-    flex-shrink: 0; */
+    flex-shrink: 0;
+
 }
 
 .top_logo {
