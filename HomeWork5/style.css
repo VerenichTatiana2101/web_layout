@@ -168,7 +168,7 @@ img {
     }
 
     .logos {
-        width: 12%;
+        width: 40px;
         height: auto;
     }
 
@@ -183,36 +183,29 @@ img {
             font-size: 16px;
         }
 
-        .start_but {
-            font-size: 12px;
-        }
-
-        .txt {
-            font-size: 12px;
-        }
-
-        .menu {
-            font-size: 10px;
-        }
-
         .content {
+            flex-direction: column;
+            justify-content: center;
             width: 100vw;
+            margin-top: 50px;
+            padding-bottom: 85px;
+            gap: 20px;
+        }
+
+        .blocks_content {
+            width: 90vw;
+            max-height: auto;
+            flex-shrink: 0;
         }
 
         .top_logo {
             width: 100vw;
             justify-content: center;
-            align-items: center;
             gap: 5%;
             flex-shrink: 0;
             padding: 25px 0px;
         }
 
-
-        .logos {
-            width: 40px;
-            height: auto;
-        }
     }
 
 }
