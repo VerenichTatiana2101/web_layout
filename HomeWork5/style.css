@@ -112,6 +112,7 @@ img {
     font-size: 16px;
     font-weight: 600;
     line-height: normal;
+    border: none;
 }
 
 .txt {
@@ -135,6 +136,120 @@ img {
     align-items: center;
     gap: 48px;
     flex-shrink: 0;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5%;
+    gap: 5%;
+}
+
+.featur {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    margin: 5%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+
+}
+
+h2 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 21px */
+}
+
+.read {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    border: none;
+}
+
+.big__content {
+    display: flex;
+    padding: 100px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.featur2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 5% 5% 5%;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.paragr {
+    color: #888;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.img__feat {
+    width: 100%;
+}
+
+.learn {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 56px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.content_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+
 }
 
 @media(max-width:1024px) {
@@ -161,8 +276,8 @@ img {
     }
 
     .top_logo {
-        justify-content: space-between;
-        align-items: center;
+        justify-content: center;
+        gap: 5%;
         flex-shrink: 0;
         padding: 60px 0px;
     }
@@ -199,11 +314,12 @@ img {
         }
 
         .top_logo {
-            width: 100vw;
-            justify-content: center;
-            gap: 5%;
-            flex-shrink: 0;
             padding: 25px 0px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
         }
 
     }
