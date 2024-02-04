@@ -55,3 +55,38 @@ body {
     width: 29px;
     height: 29px;
 }
+
+.content {
+    display: flex;
+
+    align-items: center;
+    background: rgb(241, 228, 230);
+}
+
+.man {
+    width: 50%;
+    background: rgb(241, 228, 230);
+}
+
+.news {
+    width: 50%;
+    background: rgb(241, 228, 230);
+}
+
+.assort {
+    padding: 100px;
+}
+
+.blocks_menu {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    margin-bottom: 100px;
+}
+
+.img1 {
+    grid-column: 1/4;
+    padding-top: 2%;
+    width: 90vw;
+}
