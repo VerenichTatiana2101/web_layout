@@ -85,17 +85,42 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-flow: dense;
     gap: 20px;
+    
 }
+
+.blocks_serif {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+h2:last-child {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(241, 109, 127);
+}
+
+
 
 .first_blocks {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    position: relative;
+
+    
 }
 
 .last_block {
     grid-column: 1/4;
-
+    position: relative;
 }
 
 .img {
@@ -192,13 +217,13 @@ p {
     /* Стили для планшета */
     .items {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        grid-auto-flow: dense; 
+        grid-auto-flow: dense;
     }
 
 }
 
-@media(min-width:2000px){
-    body{
+@media(min-width:2000px) {
+    body {
         margin-left: 10%;
         margin-right: 10%;
     }
