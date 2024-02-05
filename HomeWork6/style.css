@@ -38,7 +38,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 2vw;
-    background: rgb(34, 34, 34);  
+    background: rgb(34, 34, 34);
 }
 
 .f1 {
@@ -50,13 +50,6 @@ body {
 }
 
 .content {
-    /* width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    background: rgb(241, 228, 230);
-    padding: 2%; */
-
     max-width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -66,7 +59,7 @@ body {
     background: rgb(241, 228, 230);
 }
 
-img{
+img {
     flex-shrink: 0;
 }
 
@@ -75,7 +68,6 @@ img{
     width: 49vw;
     max-height: auto;
     flex-shrink: 0;
-    
 }
 
 .news {
@@ -95,7 +87,7 @@ img{
     gap: 20px;
 }
 
-.first_blocks{
+.first_blocks {
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -103,12 +95,12 @@ img{
 
 .last_block {
     grid-column: 1/4;
-    
+
 }
 
-.img{
+.img {
     display: flex;
-justify-content: center;
+    justify-content: center;
     max-width: 100%;
 }
 
@@ -134,17 +126,17 @@ h3 {
     font-weight: 400;
 }
 
-.container{
+.container {
     width: 100%;
     padding: 5%;
 }
 
 .items {
-    width: 100%;
+    max-width: 90%;
     display: grid;
     justify-content: center;
     /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
     gap: 1.5em;
     margin-top: 60px;
 }
@@ -193,4 +185,25 @@ p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 200px;
+}
+
+@media(max-width:1024px) {
+
+    /* Стили для планшета */
+    .items {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-flow: dense; 
+    }
+
+}
+
+@media(min-width:2000px){
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .man {
+        width: 39vw;
+    }
 }
