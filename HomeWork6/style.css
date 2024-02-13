@@ -371,9 +371,10 @@ p {
     height: 10vh;
     gap: 10%;
     background: rgb(34, 34, 34);
-    padding:0% 6%;
+    padding: 0% 6%;
 }
-.final_about{
+
+.final_about {
     white-space: nowrap;
 }
 
@@ -467,7 +468,7 @@ p {
         max-width: 70vw;
     }
 
-    .final_footer{
+    .final_footer {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
@@ -475,7 +476,7 @@ p {
         padding: 3%;
     }
 
-    .final_about{
+    .final_about {
         margin-top: 3%;
     }
 
